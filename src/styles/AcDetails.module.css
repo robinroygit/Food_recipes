@@ -1,0 +1,13 @@
+.parent{
+border: 1px solid black;
+display: grid;
+
+height: 80vh;
+}
+
+.child{
+    border: 1px solid rgb(162, 156, 156);
+    align-self: center;
+    justify-self: center;
+}
+

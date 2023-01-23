@@ -1,0 +1,56 @@
+.account {
+    width: 20%;
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+    font-size: 2rem;
+
+
+  }
+  
+  .account > span:last-child {
+    cursor: pointer;
+  }
+  .signinlogin{
+
+    text-decoration-style: none;
+    display: inline-block;
+    padding-left: 1rem;
+    color: rgb(51, 49, 49);
+    transition: all 400ms;
+
+  }
+  .signinlogin:hover{
+    transform: scale(1.2);
+    color: black;
+  }
+
+  @media screen and (max-width:400px) {
+    .account {
+   
+      font-size: 1.5em;
+      width: 20%;
+      display: flex;
+      gap: 1rem;
+      justify-content: center;
+      align-items: center;
+      margin-right: 30px;
+      margin-top: 18%;
+      
+    
+    }
+  .signinlogin{                                                                                                             
+    text-decoration-style: none;
+    display: inline-block;
+    font-size: 1rem;
+    padding-bottom: 0;
+    padding-top: 0;
+    margin: 0;
+    padding-left: 1rem;
+    color: rgb(51, 49, 49);
+    transition: all 400ms;
+
+  }
+}
